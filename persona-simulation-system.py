@@ -795,7 +795,7 @@ class PersonaSystemUI:
     def setup_model_client(self):
         """モデルクライアントのセットアップ"""
         self.model_client = OpenAIChatCompletionClient(
-            model="o4-mini-2025-04-16"
+            model="o3-2025-04-16"
         )
 
     def display_personas(self):
